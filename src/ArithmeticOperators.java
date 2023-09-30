@@ -14,9 +14,10 @@ public class ArithmeticOperators
 //        - Initialize variable r as the result of a mod b.
         int r=a%b;
 
-//        Print c and r in console.
-        System.out.println(c);
-        System.out.println(r);
-        System.out.println(cAsFloatDataType);
+//        - Print initial values in console to describe what's going on.
+        System.out.println("a = " + a + " and b = " + b);
+        System.out.println("a / b = " + c + ", remainder of " + r);
+        System.out.println("a % b = " + r);
+//        System.out.println(cAsFloatDataType);
     }
 }
