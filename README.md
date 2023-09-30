@@ -1,1 +1,1 @@
-# java-arithmetic-practice
+# java-practice
