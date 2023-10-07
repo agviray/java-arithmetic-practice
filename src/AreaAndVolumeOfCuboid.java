@@ -14,5 +14,7 @@ public class AreaAndVolumeOfCuboid {
         width=sc.nextInt();
         System.out.println("Enter a height value.");
         height=sc.nextInt();
+        System.out.println("Volume is: " + length*width*height);
+        System.out.println("Total area is: " + 2*(length*width+length*height+width*height));
     }
 }
